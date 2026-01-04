@@ -1,0 +1,99 @@
+.page {
+    display: none;
+}
+
+.h {
+    display: block;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.banner {
+    display: block;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url("images/Menu/Menu1.jpg");
+    text-align:center;
+    position: relative;
+}
+
+.btn {
+    font-size: 30px;
+    background-color: rgb(46, 44, 44);
+    color:aliceblue;
+
+}
+
+.titlet {
+    font-size: 20px;
+    color:aliceblue;
+    font-family: Segoe UI;
+    top: 10px;
+    left:30px;
+    text-align:left;
+    margin-left: 40px;
+    
+}
+
+.homepage {
+    position: relative;
+    width: 100%;
+}
+
+
+.himage {
+    width: 100%;
+    height: 400px;
+    background-image: url("images/Menu/Menu5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.white-box {
+    width: 100%;
+    background: white;
+    padding: 20px;
+    margin-top: 200px;      /*change the height of the white box */
+    position: relative;
+    z-index: 10;
+}
+
+
+.white-box img {
+    width: 30%;
+    height: auto;
+    margin: 10px;
+}
+
+.titlemid {
+    text-align: center;
+    margin-top: 20px;
+    font-family:Georgia;
+
+}
+
+
+.text .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.text .item p {
+    width: 60%;
+}
+
+.text .item img {
+    width: 35%;
+    object-fit: cover;
+    border-radius: 8px;
+}
